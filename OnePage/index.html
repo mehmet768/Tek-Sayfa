@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="one pages">
+    <meta name="keywords" content="html5,css3,jquery">
+    <meta name="author" content="Mehmet Özen">
+    <meta name="title" content="O sayfa için başlık">
+    <meta name="identifier-URL" content="https://www.site.com.tr">
+    <meta name="robots" content="noindex">
+    <title>One Page</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Cormorant:ital,wght@0,300..700;1,300..700&family=Diplomata&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Norican&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Varela&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+</head>
+
+<body id="top">
+
+    <!---Header-->
+    <header>
+        <nav class="navbar">
+            <div class="navbar-icerik">
+                <!-- Logo -->
+                <a href="#">
+                    <img src="image/logo2.png" alt="Mehmet Özen" class="logo">
+                </a>
+
+                <!-- Hamburger Buton (Sadece Mobil) -->
+                <input type="checkbox" id="menu-kontrol" class="menu-kontrol">
+                <label for="menu-kontrol" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+
+                <!-- Menü Linkleri -->
+                <ul class="menu">
+                    <li class="menu-item"><a href="index.html"><i class="fas fa-house-user"></i>Home</a></li>
+                       <li class="menu-item"><a href="#about"><i class="fa-solid fa-circle-info"></i>About</a></li>
+                    <li class="menu-item"><a href="#career"><i class="fas fa-user-check"></i>Career</a></li>
+                    <li class="menu-item"><a href="#news"><i class="fas fa-newspaper"></i>News</a></li>
+                         <li class="menu-item"><a href="#sss"><i class="fa-solid fa-question"></i>S.S.S</a></li>
+                    <li class="menu-item"><a href="#contact"><i class="far fa-id-card"></i>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+        <div class="overlay">
+
+
+            <div class="image-header"></div>
+            <div class="theme-header">
+                <h1>Mehmet Özen One Pages</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, dolorum!</p>
+                <a href="#" class="btn-header">Daha Fazla...</a>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <!--About-->
+        <section class="hakkimizda-bolum" id="about">
+            <!-- Başlık -->
+            <div class="bolum-baslik">
+                <h2>About</h2>
+                <p>Teknoloji ve tasarımın gücüyle işinizi bir adım öteye taşıyoruz.</p>
+            </div>
+            <div class="kapsayici">
+
+
+                <!-- Hakkımızda Metni -->
+                <div class="hakkimizda-icerik">
+                    <h3><span>👋</span> Biz Kimiz?</h3>
+                    <p>
+                        <strong>Mehmet Özen Yazılım & Web Tasarım</strong> olarak, modern dijital dünyada işletmelerin
+                        ve girişimcilerin güçlü, etkili ve kalıcı bir yer edinmesi için çalışıyoruz. Sadece kod yazmak
+                        değil, işinizi en iyi şekilde yansıtan çözümler üretmek bizim temel prensibimizdir.
+                        <br><br>
+                        Müşterilerimizin ihtiyaçlarını dinliyor, özgün tasarımlar ve sağlam altyapılarla
+                        birleştiriyoruz. Her proje bizim için özeldir; çünkü sizin başarınız, bizim başarımızdır.
+                    </p>
+                </div>
+
+                <!-- Misyon & Vizyon -->
+                <div class="mv-kapsayici">
+                    <!-- Misyon -->
+                    <div class="mv-kart misyon-kart">
+                        <h3><span>🎯</span> Misyonumuz</h3>
+                        <p>
+                            Müşterilerimize yenilikçi, kullanıcı dostu ve ölçeklenebilir yazılım ile web tasarım
+                            çözümleri sunmak; dijital hedeflerine en hızlı, en güvenilir şekilde ulaşmalarını
+                            sağlamaktır.
+                        </p>
+                        <ul>
+                            <li>Özgün ve işe özel tasarımlar</li>
+                            <li>Modern, hızlı ve mobil uyumlu altyapılar</li>
+                            <li>Şeffaf iletişim ve zamanında teslimat</li>
+                            <li>Sürekli destek ve gelişim</li>
+                        </ul>
+                    </div>
+
+                    <!-- Vizyon -->
+                    <div class="mv-kart vizyon-kart">
+                        <h3><span>🔭</span> Vizyonumuz</h3>
+                        <p>
+                            Sektörde öncü, güvenilir ve tercih edilen bir marka olmak; teknolojinin sunduğu her yeniliği
+                            takip ederek müşterilerimizin daima bir adım önde olmasını sağlamaktır.
+                        </p>
+                        <ul>
+                            <li>Yerel ve uluslararası düzeyde tanınan marka</li>
+                            <li>Sürekli kendini yenileyen dinamik yapı</li>
+                            <li>İnsan odaklı, erişilebilir çözümler</li>
+                            <li>İş ortaklarımızla büyüyen sürdürülebilir başarı</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--News-->
+        <section class="ozel-bolum" id="news">
+            <div class="kapsayici">
+                <!-- Kart 1 -->
+                <div class="kart">
+                    <img src="image/1.png" alt="Açıklama 1" class="kart-resim">
+                    <div class="kart-icerik">
+                        <h3>Siber Güvenlik</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero assumenda minima ut dolore,
+                            maiores tempora nam eum ipsa obcaecati vel doloremque consectetur unde! Nemo inventore quia
+                            placeat, necessitatibus molestiae explicabo?</p>
+                    </div>
+                </div>
+
+                <!-- Kart 2 -->
+                <div class="kart">
+                    <img src="image/2.png" alt="Açıklama 2" class="kart-resim">
+                    <div class="kart-icerik">
+                        <h3>Frontend Developer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro dolor facere nihil sunt minima
+                            ratione error veritatis necessitatibus, consequuntur quae nisi alias temporibus reiciendis!
+                            Magnam alias doloremque animi. Est, quaerat.</p>
+                    </div>
+                </div>
+
+                <!-- Kart 3 -->
+                <div class="kart">
+                    <img src="image/3.png" alt="Açıklama 3" class="kart-resim">
+                    <div class="kart-icerik">
+                        <h3>Backend Developer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic, porro incidunt! Cumque illum
+                            vero quae neque, quisquam unde tenetur necessitatibus? Quibusdam iusto mollitia illum eos
+                            earum hic sit, aliquam rerum.</p>
+                    </div>
+                </div>
+
+                <!-- Kart 4-->
+                <div class="kart">
+                    <img src="image/4.png" alt="Açıklama 3" class="kart-resim">
+                    <div class="kart-icerik">
+                        <h3>Fullstack Developer</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt fuga cumque numquam eos
+                            provident facilis repudiandae magnam placeat enim, et aliquid. Molestias, ducimus aliquid
+                            ipsam iste aperiam corrupti quaerat consectetur?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Career-->
+        <section class="sol-sag-bolum" id="career">
+            <div class="kapsayici">
+                <!-- Sol Taraf: Resim -->
+                <div class="resim-alani">
+                    <img src="image/information.png" alt="Yazılım Hizmetleri" class="ana-resim">
+                </div>
+
+                <!-- Sağ Taraf: Yazılar -->
+                <div class="yazi-alani">
+                    <h2>Yazılım Çözümleri</h2>
+                    <p>Modern işletmeler için özel olarak geliştirilen yazılım çözümlerimizle iş süreçlerinizi
+                        hızlandırır, verimliliğinizi artırırız.</p>
+                    <p>Deneyimli ekibimizle ihtiyaçlarınıza uygun, ölçeklenebilir ve güvenli uygulamalar geliştiriyoruz.
+                    </p>
+
+                    <ul class="ozellik-listesi">
+                        <li>Web ve Mobil Uygulama Geliştirme</li>
+                        <li>Özel Yazılım Çözümleri</li>
+                        <li>API Entegrasyonları</li>
+                        <li>Bakım ve Destek Hizmetleri</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--S S S-->
+        <section class="sss-bolum" id="sss">
+
+            <!-- Başlık -->
+            <div class="bolum-baslik">
+                <h2>Sıkça Sorulan Sorular</h2>
+                <p>En çok merak edilen soruların cevaplarını burada bulabilirsiniz.</p>
+            </div>
+            <div class="kapsayici">
+
+
+                <!-- SSS Listesi -->
+                <div class="sss-liste">
+                    <!-- Soru 1 -->
+                    <div class="sss-kart">
+                        <input type="checkbox" id="soru-1" class="sss-kontrol">
+                        <label for="soru-1" class="sss-soru">
+                            Hizmetlerinizin fiyatlandırması nasıl yapılıyor?
+                            <span class="sss-ikon">+</span>
+                        </label>
+                        <div class="sss-cevap">
+                            <div class="sss-cevap-icerik">
+                                Fiyatlandırma, projenin kapsamına, özellik sayısına, tasarım ihtiyaçlarına ve teslim
+                                süresine göre özel olarak hazırlanmaktadır. En doğru teklif için iletişim sayfamızdan
+                                proje detaylarınızı paylaşmanız yeterlidir.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soru 2 -->
+                    <div class="sss-kart">
+                        <input type="checkbox" id="soru-2" class="sss-kontrol">
+                        <label for="soru-2" class="sss-soru">
+                            Proje ne kadar sürede tamamlanır?
+                            <span class="sss-ikon">+</span>
+                        </label>
+                        <div class="sss-cevap">
+                            <div class="sss-cevap-icerik">
+                                Basit web siteleri genellikle 5–7 iş günü içinde teslim edilir. Özel yazılım, gelişmiş
+                                özellikler veya çok dilli projelerde süre proje kapsamına göre uzayabilir; size en kısa
+                                sürede teslim etmek için çalışırız.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soru 3 -->
+                    <div class="sss-kart">
+                        <input type="checkbox" id="soru-3" class="sss-kontrol">
+                        <label for="soru-3" class="sss-soru">
+                            Teslim sonrası destek hizmeti var mı?
+                            <span class="sss-ikon">+</span>
+                        </label>
+                        <div class="sss-cevap">
+                            <div class="sss-cevap-icerik">
+                                Evet! Proje teslimi sonrası 3 ay boyunca ücretsiz teknik destek sunuyoruz. Sonrasında
+                                isteğe bağlı bakım paketlerimizle sisteminizin sürekli güncel ve sorunsuz kalmasını
+                                sağlıyoruz.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soru 4 -->
+                    <div class="sss-kart">
+                        <input type="checkbox" id="soru-4" class="sss-kontrol">
+                        <label for="soru-4" class="sss-soru">
+                            Mevcut web sitemi yenileyebilir miyiz?
+                            <span class="sss-ikon">+</span>
+                        </label>
+                        <div class="sss-cevap">
+                            <div class="sss-cevap-icerik">
+                                Elbette! Mevcut sitenizin tasarımını, altyapısını ve performansını baştan
+                                yenileyebiliriz. Kullanıcı verilerinizi ve içeriğinizi koruyarak modern, hızlı ve mobil
+                                uyumlu bir yapıya dönüştürüyoruz.
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Soru 5 -->
+                    <div class="sss-kart">
+                        <input type="checkbox" id="soru-5" class="sss-kontrol">
+                        <label for="soru-5" class="sss-soru">
+                            Ödeme seçenekleriniz nelerdir?
+                            <span class="sss-ikon">+</span>
+                        </label>
+                        <div class="sss-cevap">
+                            <div class="sss-cevap-icerik">
+                                Banka havalesi ve EFT ile ödeme kabul ediyoruz. Proje başlangıcında %50 peşin,
+                                teslimatta kalan %50 şeklinde ödeme planı uygulanır. Büyük projelerde ödeme planı
+                                esnetilebilir.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Contact-->
+        <section class="iletisim-bolum" id="contact">
+            <div class="bolum-baslik">
+                <h2>Contact</h2>
+                <p>Sorularınız veya teklifleriniz için benimle iletişime geçin.</p>
+            </div>
+
+            <div class="kapsayici">
+
+                <div class="icerik">
+                    <!-- Form -->
+                    <div class="form-alani">
+                        <form class="form-kart" action="#" method="POST">
+                            <div class="form-grubu">
+                                <label>Adınız <span class="zorunlu">*</span></label>
+                                <input type="text" name="ad" required placeholder="Adınızı girin">
+                            </div>
+
+                            <div class="form-grubu">
+                                <label>E-posta <span class="zorunlu">*</span></label>
+                                <input type="email" name="email" required placeholder="ornek@email.com">
+                            </div>
+
+                            <div class="form-grubu">
+                                <label>Telefon</label>
+                                <input type="tel" name="telefon" placeholder="05XX XXX XX XX">
+                            </div>
+
+                            <div class="form-grubu">
+                                <label>Konu <span class="zorunlu">*</span></label>
+                                <input type="text" name="konu" required placeholder="Mesajınızın konusu">
+                            </div>
+
+                            <div class="form-grubu">
+                                <label>Mesajınız <span class="zorunlu">*</span></label>
+                                <textarea name="mesaj" required placeholder="Mesajınızı buraya yazın..."></textarea>
+                            </div>
+
+                            <div class="buton-grubu">
+                                <button type="reset" class="btn-sifirla">Sıfırla</button>
+                                <button type="submit" class="btn-gonder">Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Harita -->
+                    <div class="harita-alani">
+                        <div class="harita-kart">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19968.840933351406!2d29.915485247314453!3d40.830173999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ca0f928511f2bd9%3A0x40d28c074a39c2ee!2sKocaeli!5e0!3m2!1str!2str!4v1727119000000!5m2!1str!2str"
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Konum">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+    </main>
+
+
+    <!--Footer-->
+
+    <footer id="footer">
+        <p>&copy; Tüm Haklar Saklıdır | Mehmet Özen</p> <br>
+        <address>
+            <p>
+                İstanbul / Kocaeli <br><br>
+                <a href="mailto:deneme@mail.address">deneme@mail.address</a><br><br>
+                <a href="tel:+90 111 111 22 11">+90 111 111 22 11</a>
+            </p>
+        </address>
+    </footer>
+    <div id="bottom">
+        <a href="#top"><i class="fas fa-arrow-up"></i></a>
+
+    </div>
+</body>
+
+</html>
